@@ -9,7 +9,7 @@ void main() {
 
 double calculaDescontoProduto(double preco) {
     if (preco > 1000) {
-        return preco * 0.92; // 8% de desconto
+        return preco * 0.92; // Aplica 8% de desconto
     }
     return preco;
 }
